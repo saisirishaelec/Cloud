@@ -1,0 +1,580 @@
+{
+  "manifest_format": 2,
+  "software": {
+    "preparation": {
+      "locked_version": "1.0.0",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.0.0",
+      "license": "project_license"
+    },
+    "zlib": {
+      "locked_version": "1.2.8",
+      "locked_source": {
+        "md5": "44d667c142d7cda120332623eab69f40",
+        "url": "http://iweb.dl.sourceforge.net/project/libpng/zlib/1.2.8/zlib-1.2.8.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.2.8",
+      "license": "Zlib"
+    },
+    "cacerts": {
+      "locked_version": "2016.01.20",
+      "locked_source": {
+        "md5": "36eee0e80373937dd90a9a334ae42817",
+        "url": "https://raw.githubusercontent.com/bagder/ca-bundle/dfcc02c918b7bf40ed3a7f27a634c74ef4e80829/ca-bundle.crt"
+      },
+      "source_type": "url",
+      "described_version": "2016.01.20",
+      "license": "MPL-2.0"
+    },
+    "xproto": {
+      "locked_version": "7.0.28",
+      "locked_source": {
+        "md5": "0b42843b99aee3e4f6a9cc7710143f86",
+        "url": "http://xorg.freedesktop.org/releases/individual/proto/xproto-7.0.28.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "7.0.28",
+      "license": "MIT"
+    },
+    "util-macros": {
+      "locked_version": "1.19.0",
+      "locked_source": {
+        "md5": "40e1caa49a71a26e0aa68ddd00203717",
+        "url": "http://xorg.freedesktop.org/releases/individual/util/util-macros-1.19.0.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.19.0",
+      "license": "MIT"
+    },
+    "config_guess": {
+      "locked_version": "dafd8e767ec87b90aac62f0fcedd11944c84b50a",
+      "locked_source": {
+        "git": "http://git.savannah.gnu.org/r/config.git"
+      },
+      "source_type": "git",
+      "described_version": "master",
+      "license": "GPL-3.0 (with exception)"
+    },
+    "pkg-config-lite": {
+      "locked_version": "0.28-1",
+      "locked_source": {
+        "md5": "61f05feb6bab0a6bbfab4b6e3b2f44b6",
+        "url": "http://downloads.sourceforge.net/project/pkgconfiglite/0.28-1/pkg-config-lite-0.28-1.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "0.28-1",
+      "license": "GPL-2.0"
+    },
+    "makedepend": {
+      "locked_version": "1.0.5",
+      "locked_source": {
+        "url": "http://xorg.freedesktop.org/releases/individual/util/makedepend-1.0.5.tar.gz",
+        "md5": "efb2d7c7e22840947863efaedc175747"
+      },
+      "source_type": "url",
+      "described_version": "1.0.5",
+      "license": "MIT"
+    },
+    "openssl": {
+      "locked_version": "1.0.1t",
+      "locked_source": {
+        "url": "https://www.openssl.org/source/openssl-1.0.1t.tar.gz",
+        "extract": "lax_tar",
+        "md5": "9837746fcf8a6727d46d22ca35953da1"
+      },
+      "source_type": "url",
+      "described_version": "1.0.1t",
+      "license": "OpenSSL"
+    },
+    "rust": {
+      "locked_version": "2015-10-03",
+      "locked_source": {
+        "md5": "eff35d920b30f191b659075a563197a6",
+        "url": "https://static.rust-lang.org/dist/2015-10-03/rust-nightly-x86_64-unknown-linux-gnu.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2015-10-03",
+      "license": "Apache-2.0"
+    },
+    "delivery-cli": {
+      "locked_version": "454c3f37819ed508a49c971f38e42267ce8a47de",
+      "locked_source": {
+        "git": "https://github.com/chef/delivery-cli.git"
+      },
+      "source_type": "git",
+      "described_version": "master",
+      "license": "Apache-2.0"
+    },
+    "rust-uninstall": {
+      "locked_version": "0.0.1",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.1",
+      "license": "project_license"
+    },
+    "curl": {
+      "locked_version": "7.47.1",
+      "locked_source": {
+        "md5": "3f9d1be7bf33ca4b8c8602820525302b",
+        "url": "https://curl.haxx.se/download/curl-7.47.1.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "7.47.1",
+      "license": "MIT"
+    },
+    "ncurses": {
+      "locked_version": "5.9",
+      "locked_source": {
+        "md5": "8cb9c412e5f2d96bc6f459aa8c6282a1",
+        "url": "https://ftp.gnu.org/gnu/ncurses/ncurses-5.9.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "5.9",
+      "license": "MIT"
+    },
+    "libedit": {
+      "locked_version": "20120601-3.0",
+      "locked_source": {
+        "md5": "e50f6a7afb4de00c81650f7b1a0f5aea",
+        "url": "http://www.thrysoee.dk/editline/libedit-20120601-3.0.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "20120601-3.0",
+      "license": "BSD-3-Clause"
+    },
+    "pcre": {
+      "locked_version": "8.38",
+      "locked_source": {
+        "md5": "8a353fe1450216b6655dfcf3561716d9",
+        "url": "http://iweb.dl.sourceforge.net/project/pcre/pcre/8.38/pcre-8.38.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "8.38",
+      "license": "BSD-2-Clause"
+    },
+    "libiconv": {
+      "locked_version": "1.14",
+      "locked_source": {
+        "url": "https://ftp.gnu.org/pub/gnu/libiconv/libiconv-1.14.tar.gz",
+        "md5": "e34509b1623cec449dfeb73d7ce9c6c6"
+      },
+      "source_type": "url",
+      "described_version": "1.14",
+      "license": "LGPL-2.1"
+    },
+    "expat": {
+      "locked_version": "2.1.0",
+      "locked_source": {
+        "url": "http://iweb.dl.sourceforge.net/project/expat/expat/2.1.0/expat-2.1.0.tar.gz",
+        "md5": "dd7dab7a5fea97d2a6a43f511449b7cd"
+      },
+      "source_type": "url",
+      "described_version": "2.1.0",
+      "license": "MIT"
+    },
+    "git": {
+      "locked_version": "2.8.2",
+      "locked_source": {
+        "md5": "3022d8ebf64b35b9704d5adf54b256f9",
+        "url": "https://www.kernel.org/pub/software/scm/git/git-2.8.2.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.8.2",
+      "license": "LGPL-2.1"
+    },
+    "liblzma": {
+      "locked_version": "5.2.2",
+      "locked_source": {
+        "url": "http://tukaani.org/xz/xz-5.2.2.tar.gz",
+        "md5": "7cf6a8544a7dae8e8106fdf7addfa28c"
+      },
+      "source_type": "url",
+      "described_version": "5.2.2",
+      "license": "Public-Domain"
+    },
+    "libxml2": {
+      "locked_version": "2.9.3",
+      "locked_source": {
+        "md5": "daece17e045f1c107610e137ab50c179",
+        "url": "ftp://xmlsoft.org/libxml2/libxml2-2.9.3.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.9.3",
+      "license": "MIT"
+    },
+    "libxslt": {
+      "locked_version": "1.1.28",
+      "locked_source": {
+        "md5": "9667bf6f9310b957254fdcf6596600b7",
+        "url": "ftp://xmlsoft.org/libxml2/libxslt-1.1.28.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.1.28",
+      "license": "MIT"
+    },
+    "libarchive": {
+      "locked_version": "3.1.2",
+      "locked_source": {
+        "url": "http://www.libarchive.org/downloads/libarchive-3.1.2.tar.gz",
+        "md5": "efad5a503f66329bb9d2f4308b5de98a"
+      },
+      "source_type": "url",
+      "described_version": "3.1.2",
+      "license": "BSD-2-Clause"
+    },
+    "m4": {
+      "locked_version": "1.4.17",
+      "locked_source": {
+        "url": "https://ftp.gnu.org/gnu/m4/m4-1.4.17.tar.gz",
+        "md5": "a5e9954b1dae036762f7b13673a2cf76"
+      },
+      "source_type": "url",
+      "described_version": "1.4.17",
+      "license": "GPL-3.0"
+    },
+    "autoconf": {
+      "locked_version": "2.68",
+      "locked_source": {
+        "md5": "c3b5247592ce694f7097873aa07d66fe",
+        "url": "https://ftp.gnu.org/gnu/autoconf/autoconf-2.68.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.68",
+      "license": "GPL-3.0"
+    },
+    "automake": {
+      "locked_version": "1.11.2",
+      "locked_source": {
+        "md5": "79ad64a9f6e83ea98d6964cef8d8a0bc",
+        "url": "https://ftp.gnu.org/gnu/automake/automake-1.11.2.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.11.2",
+      "license": "GPL-2.0"
+    },
+    "libtool": {
+      "locked_version": "2.4.2",
+      "locked_source": {
+        "md5": "d2f3b7d4627e69e13514a40e72a24d50",
+        "url": "https://ftp.gnu.org/gnu/libtool/libtool-2.4.2.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.4.2",
+      "license": "GPL-2.0"
+    },
+    "libsodium": {
+      "locked_version": "1.0.2",
+      "locked_source": {
+        "md5": "dc40eb23e293448c6fc908757738003f",
+        "url": "https://download.libsodium.org/libsodium/releases/libsodium-1.0.2.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "1.0.2",
+      "license": "ISC"
+    },
+    "libzmq": {
+      "locked_version": "4.0.5",
+      "locked_source": {
+        "md5": "73c39f5eb01b9d7eaf74a5d899f1d03d",
+        "url": "http://download.zeromq.org/zeromq-4.0.5.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "4.0.5",
+      "license": "LGPL-3.0"
+    },
+    "libffi": {
+      "locked_version": "3.2.1",
+      "locked_source": {
+        "md5": "83b89587607e3eb65c70d361f13bab43",
+        "url": "ftp://sourceware.org/pub/libffi/libffi-3.2.1.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "3.2.1",
+      "license": "MIT"
+    },
+    "libyaml": {
+      "locked_version": "0.1.6",
+      "locked_source": {
+        "url": "http://pyyaml.org/download/libyaml/yaml-0.1.6.tar.gz",
+        "md5": "5fe00cda18ca5daeb43762b80c38e06e"
+      },
+      "source_type": "url",
+      "described_version": "0.1.6",
+      "license": "MIT"
+    },
+    "ruby": {
+      "locked_version": "2.1.8",
+      "locked_source": {
+        "md5": "091b62f0a9796a3c55de2a228a0e6ef3",
+        "url": "https://cache.ruby-lang.org/pub/ruby/2.1/ruby-2.1.8.tar.gz"
+      },
+      "source_type": "url",
+      "described_version": "2.1.8",
+      "license": "BSD-2-Clause"
+    },
+    "rubygems": {
+      "locked_version": "2.6.4",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "2.6.4",
+      "license": "MIT"
+    },
+    "bundler": {
+      "locked_version": "1.12.4",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.12.4",
+      "license": "MIT"
+    },
+    "chef-dk-gem-dep-selector-libgecode": {
+      "locked_version": "1.2.0",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.2.0",
+      "license": "Apache-2.0"
+    },
+    "chef-dk-gem-ffi-rzmq": {
+      "locked_version": "2.0.4",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "2.0.4",
+      "license": "MIT"
+    },
+    "chef-dk-gem-libyajl2": {
+      "locked_version": "1.2.0",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.2.0",
+      "license": "Apache-2.0"
+    },
+    "chef-dk-gem-ffi-yajl": {
+      "locked_version": "2.2.3",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "2.2.3",
+      "license": "MIT"
+    },
+    "chef-dk-gem-json": {
+      "locked_version": "1.8.3",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.8.3",
+      "license": "Ruby"
+    },
+    "chef-dk-gem-mini_portile2": {
+      "locked_version": "2.0.0",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "2.0.0",
+      "license": "MIT"
+    },
+    "chef-dk-gem-nokogiri": {
+      "locked_version": "1.6.7.2",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.6.7.2",
+      "license": "MIT"
+    },
+    "chef-dk-gem-ffi": {
+      "locked_version": "1.9.10",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.9.10",
+      "license": "BSD-3-CLAUSE"
+    },
+    "chef-dk-gem-ruby-prof": {
+      "locked_version": "0.15.9",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "0.15.9",
+      "license": "BSD-2-CLAUSE"
+    },
+    "chef-dk-gem-dep_selector": {
+      "locked_version": "1.0.3",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.0.3",
+      "license": "Apache-2.0"
+    },
+    "chef-dk-gem-nio4r": {
+      "locked_version": "1.2.1",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.2.1",
+      "license": "MIT"
+    },
+    "chef-dk-gem-byebug": {
+      "locked_version": "9.0.3",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "9.0.3",
+      "license": "MIT"
+    },
+    "chef-dk-gem-yajl-ruby": {
+      "locked_version": "1.2.1",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.2.1",
+      "license": "MIT"
+    },
+    "chef-dk-gem-hitimes": {
+      "locked_version": "1.2.4",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "1.2.4",
+      "license": "ISC"
+    },
+    "chef-dk-gem-debug_inspector": {
+      "locked_version": "0.0.2",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "0.0.2",
+      "license": "MIT"
+    },
+    "chef-dk-gem-binding_of_caller": {
+      "locked_version": "0.7.2",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "0.7.2",
+      "license": "MIT"
+    },
+    "chef-dk-gem-cookstyle": {
+      "locked_version": "0.0.1",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "0.0.1",
+      "license": "Apache-2.0"
+    },
+    "chef-dk-gem-ruby-shadow": {
+      "locked_version": "2.5.0",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem"
+      },
+      "source_type": "path",
+      "described_version": "2.5.0",
+      "license": "PublicDomain"
+    },
+    "chef-dk": {
+      "locked_version": "local_source",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder",
+        "options": {
+          "exclude": [
+            "omnibus/vendor"
+          ]
+        }
+      },
+      "source_type": "path",
+      "described_version": "local_source",
+      "license": "project_license"
+    },
+    "chef-dk-appbundle": {
+      "locked_version": "local_source",
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files"
+      },
+      "source_type": "path",
+      "described_version": "local_source",
+      "license": "Unspecified"
+    },
+    "gem-permissions": {
+      "locked_version": "0.0.1",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.1",
+      "license": "project_license"
+    },
+    "chef-dk-remove-docs": {
+      "locked_version": null,
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": null,
+      "license": "project_license"
+    },
+    "rubygems-customization": {
+      "locked_version": null,
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/rubygems-customization"
+      },
+      "source_type": "path",
+      "described_version": null,
+      "license": "project_license"
+    },
+    "shebang-cleanup": {
+      "locked_version": "0.0.2",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.2",
+      "license": "project_license"
+    },
+    "version-manifest": {
+      "locked_version": "0.0.1",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "0.0.1",
+      "license": "project_license"
+    },
+    "openssl-customization": {
+      "locked_version": null,
+      "locked_source": {
+        "path": "/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/openssl-customization"
+      },
+      "source_type": "path",
+      "described_version": null,
+      "license": "project_license"
+    },
+    "clean-static-libs": {
+      "locked_version": "1.0.0",
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": "1.0.0",
+      "license": "project_license"
+    },
+    "chef-dk-complete": {
+      "locked_version": null,
+      "locked_source": null,
+      "source_type": "project_local",
+      "described_version": null,
+      "license": "project_license"
+    }
+  },
+  "build_version": "0.14.25",
+  "build_git_revision": "e56b7062d3b253a72c635e2af8f336c92a6799e9",
+  "license": "Apache-2.0"
+}

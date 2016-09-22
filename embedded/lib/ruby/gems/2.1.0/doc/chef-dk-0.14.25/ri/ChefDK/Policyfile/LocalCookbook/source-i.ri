@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"source:ETI"-ChefDK::Policyfile::LocalCookbook#source;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"HA relative or absolute path to the cookbook. If a relative path is ;TI";given, it is resolved relative to #relative_paths_root;T:
+@fileI"-lib/chef-dk/policyfile/cookbook_locks.rb;T:0@omit_headings_from_table_of_contents_below0F@I"&ChefDK::Policyfile::LocalCookbook;TcRDoc::NormalClass0

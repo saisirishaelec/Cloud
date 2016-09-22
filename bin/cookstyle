@@ -1,0 +1,16 @@
+#!/opt/chefdk/embedded/bin/ruby
+#--APP_BUNDLER_BINSTUB_FORMAT_VERSION=1--
+ENV["GEM_HOME"] = ENV["GEM_PATH"] = nil unless ENV["APPBUNDLER_ALLOW_RVM"] == "true"
+gem "rubocop", "= 0.39.0"
+gem "parser", "= 2.3.1.0"
+gem "ast", "= 2.2.0"
+gem "powerpack", "= 0.1.1"
+gem "rainbow", "= 2.1.0"
+gem "ruby-progressbar", "= 1.8.1"
+gem "unicode-display_width", "= 1.0.5"
+gem "cookstyle", "= 0.0.1"
+
+spec = Gem::Specification.find_by_name("cookstyle", "= 0.0.1")
+bin_file = spec.bin_file("cookstyle")
+
+Kernel.load(bin_file)

@@ -1,0 +1,17 @@
+#!/opt/chefdk/embedded/bin/ruby
+#--APP_BUNDLER_BINSTUB_FORMAT_VERSION=1--
+ENV["GEM_HOME"] = ENV["GEM_PATH"] = nil unless ENV["APPBUNDLER_ALLOW_RVM"] == "true"
+gem "mixlib-install", "= 1.0.11"
+gem "artifactory", "= 2.3.2"
+gem "mixlib-shellout", "= 2.2.6"
+gem "mixlib-versioning", "= 1.1.0"
+gem "net-scp", "= 1.2.1"
+gem "net-ssh", "= 3.1.1"
+gem "safe_yaml", "= 1.0.4"
+gem "thor", "= 0.19.1"
+gem "test-kitchen", "= 1.8.0"
+
+spec = Gem::Specification.find_by_name("test-kitchen", "= 1.8.0")
+bin_file = spec.bin_file("kitchen")
+
+Kernel.load(bin_file)

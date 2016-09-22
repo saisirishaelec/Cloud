@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"origin:ETI".ChefDK::Policyfile::CachedCookbook#origin;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"<A URI pointing to the canonical source of the cookbook.;T:
+@fileI"-lib/chef-dk/policyfile/cookbook_locks.rb;T:0@omit_headings_from_table_of_contents_below0F@I"'ChefDK::Policyfile::CachedCookbook;TcRDoc::NormalClass0

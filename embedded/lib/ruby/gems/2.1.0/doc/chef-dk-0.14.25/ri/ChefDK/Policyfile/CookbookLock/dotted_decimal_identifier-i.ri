@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"dotted_decimal_identifier:ETI"?ChefDK::Policyfile::CookbookLock#dotted_decimal_identifier;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"LA string in "X.Y.Z" version number format that uniquely identifies the ;TI"Hcookbook version. This is for compatibility with Chef Server 11.x, ;TI"9where cookbooks are stored by x.y.z version numbers.;T:
+@fileI"-lib/chef-dk/policyfile/cookbook_locks.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%ChefDK::Policyfile::CookbookLock;TcRDoc::NormalClass0

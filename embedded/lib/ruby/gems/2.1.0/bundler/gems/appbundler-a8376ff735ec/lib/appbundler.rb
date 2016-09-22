@@ -1,0 +1,4 @@
+
+module Appbundler
+end
+

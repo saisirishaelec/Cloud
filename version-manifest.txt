@@ -1,0 +1,66 @@
+chefdk 0.14.25
+
+Component                            Installed Version   Version GUID                                                                                                                        Overridden From   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+autoconf                             2.68                md5:c3b5247592ce694f7097873aa07d66fe                                                                                                
+automake                             1.11.2              md5:79ad64a9f6e83ea98d6964cef8d8a0bc                                                                                                
+bundler                              0.14.25             
+cacerts                              2016.01.20          md5:36eee0e80373937dd90a9a334ae42817                                                                                                
+chef-dk                              local_source        path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder                             
+chef-dk-appbundle                    local_source        path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files               
+chef-dk-complete                     0.14.25             
+chef-dk-gem-binding_of_caller        0.7.2               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-byebug                   9.0.3               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-cookstyle                0.0.1               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-debug_inspector          0.0.2               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-dep-selector-libgecode   1.2.0               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-dep_selector             1.0.3               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-ffi                      1.9.10              path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-ffi-rzmq                 2.0.4               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-ffi-yajl                 2.2.3               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-hitimes                  1.2.4               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-json                     1.8.3               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-libyajl2                 1.2.0               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-mini_portile2            2.0.0               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-nio4r                    1.2.1               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-nokogiri                 1.6.7.2             path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-ruby-prof                0.15.9              path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-ruby-shadow              2.5.0               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-gem-yajl-ruby                1.2.1               path:/home/jenkins/workspace/chefdk-build/architecture/x86_64/platform/el-6/project/chefdk/role/builder/omnibus/files/chef-dk-gem   
+chef-dk-remove-docs                  0.14.25             
+clean-static-libs                    1.0.0               
+config_guess                         master              git:dafd8e767ec87b90aac62f0fcedd11944c84b50a                                                                                        
+curl                                 7.47.1              md5:3f9d1be7bf33ca4b8c8602820525302b                                                                                                
+delivery-cli                         master              git:454c3f37819ed508a49c971f38e42267ce8a47de                                                                                        
+expat                                2.1.0               md5:dd7dab7a5fea97d2a6a43f511449b7cd                                                                                                
+gem-permissions                      0.0.1               
+git                                  2.8.2               md5:3022d8ebf64b35b9704d5adf54b256f9                                                                                                
+libarchive                           3.1.2               md5:efad5a503f66329bb9d2f4308b5de98a                                                                                                
+libedit                              20120601-3.0        md5:e50f6a7afb4de00c81650f7b1a0f5aea                                                                                                
+libffi                               3.2.1               md5:83b89587607e3eb65c70d361f13bab43                                                                                                
+libiconv                             1.14                md5:e34509b1623cec449dfeb73d7ce9c6c6                                                                                                
+liblzma                              5.2.2               md5:7cf6a8544a7dae8e8106fdf7addfa28c                                                                                                
+libsodium                            1.0.2               md5:dc40eb23e293448c6fc908757738003f                                                                                                
+libtool                              2.4.2               md5:d2f3b7d4627e69e13514a40e72a24d50                                                                                                2.4               
+libxml2                              2.9.3               md5:daece17e045f1c107610e137ab50c179                                                                                                
+libxslt                              1.1.28              md5:9667bf6f9310b957254fdcf6596600b7                                                                                                
+libyaml                              0.1.6               md5:5fe00cda18ca5daeb43762b80c38e06e                                                                                                
+libzmq                               4.0.5               md5:73c39f5eb01b9d7eaf74a5d899f1d03d                                                                                                2.1.11            
+m4                                   1.4.17              md5:a5e9954b1dae036762f7b13673a2cf76                                                                                                
+makedepend                           1.0.5               md5:efb2d7c7e22840947863efaedc175747                                                                                                
+ncurses                              5.9                 md5:8cb9c412e5f2d96bc6f459aa8c6282a1                                                                                                
+openssl                              1.0.1t              md5:9837746fcf8a6727d46d22ca35953da1                                                                                                
+openssl-customization                0.14.25             
+pcre                                 8.38                md5:8a353fe1450216b6655dfcf3561716d9                                                                                                
+pkg-config-lite                      0.28-1              md5:61f05feb6bab0a6bbfab4b6e3b2f44b6                                                                                                
+preparation                          1.0.0               
+ruby                                 2.1.8               md5:091b62f0a9796a3c55de2a228a0e6ef3                                                                                                
+rubygems                             0.14.25             
+rubygems-customization               0.14.25             
+rust                                 2015-10-03          md5:eff35d920b30f191b659075a563197a6                                                                                                
+rust-uninstall                       0.0.1               
+shebang-cleanup                      0.0.2               
+util-macros                          1.19.0              md5:40e1caa49a71a26e0aa68ddd00203717                                                                                                1.18.0            
+version-manifest                     0.0.1               
+xproto                               7.0.28              md5:0b42843b99aee3e4f6a9cc7710143f86                                                                                                7.0.25            
+zlib                                 1.2.8               md5:44d667c142d7cda120332623eab69f40                                                                                                

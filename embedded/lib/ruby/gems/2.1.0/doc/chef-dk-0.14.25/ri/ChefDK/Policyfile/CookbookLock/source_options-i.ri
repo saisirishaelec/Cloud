@@ -1,0 +1,2 @@
+U:RDoc::Attr[iI"source_options:ETI"4ChefDK::Policyfile::CookbookLock#source_options;TI"RW;T:publico:RDoc::Markup::Document:@parts[o:RDoc::Markup::Paragraph;	[I"LOptions specifying the source and revision of this cookbook. These can ;TI"[be passed to a CookbookLocationSpecification to create an object that can install the ;TI"6same revision of the cookbook on another machine.;T:
+@fileI"-lib/chef-dk/policyfile/cookbook_locks.rb;T:0@omit_headings_from_table_of_contents_below0F@I"%ChefDK::Policyfile::CookbookLock;TcRDoc::NormalClass0

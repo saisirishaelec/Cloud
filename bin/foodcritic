@@ -1,0 +1,19 @@
+#!/opt/chefdk/embedded/bin/ruby
+#--APP_BUNDLER_BINSTUB_FORMAT_VERSION=1--
+ENV["GEM_HOME"] = ENV["GEM_PATH"] = nil unless ENV["APPBUNDLER_ALLOW_RVM"] == "true"
+gem "cucumber-core", "= 1.4.0"
+gem "gherkin", "= 3.2.0"
+gem "erubis", "= 2.7.0"
+gem "nokogiri", "= 1.6.7.2"
+gem "mini_portile2", "= 2.0.0"
+gem "rake", "= 11.1.2"
+gem "rufus-lru", "= 1.1.0"
+gem "treetop", "= 1.6.5"
+gem "polyglot", "= 0.3.5"
+gem "yajl-ruby", "= 1.2.1"
+gem "foodcritic", "= 6.3.0"
+
+spec = Gem::Specification.find_by_name("foodcritic", "= 6.3.0")
+bin_file = spec.bin_file("foodcritic")
+
+Kernel.load(bin_file)

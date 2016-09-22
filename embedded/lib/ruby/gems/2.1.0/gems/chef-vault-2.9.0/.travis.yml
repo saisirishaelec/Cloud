@@ -1,0 +1,19 @@
+language: ruby
+branches:
+  only:
+    - master
+rvm:
+  - "1.9.3-p551"
+  - "2.0.0-p647"
+  - "2.1.6"
+  - "2.2.2"
+install: bundle install --binstubs --without changelog
+before_install: gem install bundler
+env: TRAVIS_BUILD=true
+notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/60e610197dad8edc59f9
+    on_success: false
+    on_failure: always
+    on_start: false
